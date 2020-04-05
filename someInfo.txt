@@ -1,0 +1,31 @@
+
+#fileName = 'PartReport.xlsx'
+
+#df = pd.read_excel(fileName)
+
+#df['120% Process Time'] = df['Process Time'] * 1.2
+
+
+# example of using self created functions
+#def double_num(num) :
+#    return num * 2
+#df['Doubled'] = df['120% Process Time'].apply(double_num)
+#print(df.head())
+
+# write data to a new excel file
+#wrt = pd.ExcelWriter('new_PartReport.xlsx')
+#df.to_excel(wrt,'new_sheet')
+#wrt.save()
+
+#print(df.head())
+#someCol = pd.read_excel(fileName, sheet_name=0, index_col=10)
+#finalTime = df['Process Time'] * 1.2
+#oneCol = df["Name","Process Time",finalTime]
+#print(oneCol)
+#textForNewFile = df['Name', 'Process Time']
+#saveFile = open('testFile.txt','w')
+#saveFile.write(textForNewFile)
+#saveFile.close()
+
+# write to a txt file
+#print(customCol)
