@@ -1,0 +1,17 @@
+Enable Intellisense in Jupyter notebooks:
+
+Just add line below at the top of your notebook:
+
+%config IPCompleter.greedy=True
+
+Now you get pretty pretty intellisense soon as you hit TAB.
+
+
+Now there's a better way to get accurate code completion operation. It can be triggered by any character you typed. Inspired by TabNine, I developed a code auto-completion extension for Jupyter Notebook Jupyter TabNine.
+
+It's available on pypi index now. Simply issue following commands, then enjoy it:)
+
+pip3 install jupyter-tabnine
+jupyter nbextension install --py jupyter_tabnine
+jupyter nbextension enable --py jupyter_tabnine
+jupyter serverextension enable --py jupyter_tabnine
